@@ -56,10 +56,12 @@ There are a lot of advanced git commands that we definitely did not cover in thi
 
 ### This deserves its own section, it's so powerful but it can also destroy your repo instantly 
 
-The Hard Reset Vs. The Soft Reset (and the mixed reset) 
+In this section, we're talking about the resets, the reverts and the checkouts. There is a good one from [Atlassian](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting) that talk about the difference of the 3. There will be other links and references throughout this section. This one is a doozy!! 
+
+#### The Hard Reset Vs. The Soft Reset (and the mixed reset) vs The Revert
 
 Context: 
-When you modify a file in your repository, the change is initially unstaged. In order to commit it, you must stage it, aka add it to the index—using git add. When you make a commit, the changes that are committed are those that have been added to the index. [credit](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard)
+When you modify a file in your repository, the change is initially unstaged. In order to commit it, you must stage it, aka add it to the index—using git add. When you make a commit, the changes that are committed are those that have been added to the index. [credit (stack overflow)](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard)
 
 We have this command called `git reset`. In the most basic terms, this command changes where your current branch (HEAD) is pointing to in the Git Tree. Let's say the following diagram is what your git tree looks like.
 
@@ -73,9 +75,37 @@ Running `git reset --hard B` is the same as running mixed, **but**, it also chan
 
 **When should you use it?** 
 
-[Soft Reset](https://stackoverflow.com/a/26172014) You should use this when you want to combine a series of commits into 1. 
-[Hard Reset](https://www.alexkras.com/19-git-tips-for-everyday-use/#stages) When you just lost all hope and sure you want to start over
-Mixed Reset is the same thing as hard, except it doesn't change your working files. 
+* [Soft Reset](https://stackoverflow.com/a/26172014) You should use this when you want to combine a series of commits into 1. 
+* [Hard Reset](https://www.alexkras.com/19-git-tips-for-everyday-use/#stages) When you just lost all hope and sure you want to start over
+* Mixed Reset is the same thing as hard, except it doesn't change your working files. 
+
+**What is git revert and why is it so different from git reset?**
+
+The command `git revert` is useful when you want to "reverse" a commit. When you use `git revert` you are basically reversing the effects of a particular commit with a NEW commit. This is cool because this command doesn't alter your commit history, whereas using something like `git reset` will change your commit history, and files if you are using --hard. Again, check [Atlassian](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting) if you are confused. 
+
+#### Branches! They're great! 
+
+They're super easy to make too! Before we get to the technical terminal side of things, we'll tell you how to make a branch using the website! 
+
+**To do it in Terminal:**
+We're going to use a command called `git checkout`(This command was briefly mentioned in the last section where, and you can definitely use it to go between file versions). However, to switch between branches, you will use the `git checkout` command a lot of times. 
+
+To make the actual branch, you need this command: 
+
+`git checkout -b my-new-cool-branch`
+
+The -b flag tells git to create a new branch. By default, git makes that new branch, and places you in that branch. Pretty cool, right?
+This command above is going to make a branch off of Master. You can also tell git what branch you plan on branching off from. 
+
+If that is the case, just do 
+
+`git checkout -b my-new-cool-branch this-is-my-lame-old-branch` 
+
+To merge the branches into master: 
+
+`git merge my-new-cool-branch`
+This command will take your new branch and merge it to Master. Please check this [stack overflow answer](https://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master) for the safest way to do this. Most of the time git merge your-branch-name will work, but if there are merge conflicts... lol gg
+
 
 
 
