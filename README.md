@@ -68,6 +68,13 @@ Creating your first repository is as easy as 1 10 11!
 * Find the related URL of the repository on the other person's repository page. 
 * Type `git clone URL`
 
+### Committing changes 
+
+In order to add your changes to the repository, you need to save your changes! We refer to this as a commit. Old commits that are pushed to a repository can be accessed, and the repository can be reverted. 
+
+* Add all the files you need to commit using `git add filename`
+* Type `git commit -m “message”`
+
 ### LOL My git for one of my projects is on fire Jason & Kayla, and not the good kind of fire :sob: , what do we do?
 
 Okay, that really depends on what just happened, if we're being brutally honest here. But we get it, sometimes you mess up something without knowing and your git is all messed up! We've all been there sitting at our desk at 4am wondering where our work just went. Here are a few debugging tips and pointers to help you **put out the :fire: :**
