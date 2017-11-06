@@ -1,6 +1,12 @@
 # HW4-ZTH-Intro-to-Github-WS
 A :fire: presentation about how to use Github, for the Zero To Hero Workshop that HW4 is hosting on November 6th
 
+### What is Git?
+
+Git is a version control system. If you’re working without version control, all of the changes that you made are saved and you can’t go back to older version. Git allows you to save different versions of your project, giving you the opportunity to roll back your code in case of an emergency -- we’ll discuss this more in detail later.
+
+Aside from the version control benefits, Git also allows people to make and track changes to projects at the same time and push their code to a central repository, or system, where a master version of the project is stored. Git is a command line language, meaning that you will use your terminal or command prompt to use it. Of course, there are also other ways to use Git, for instance through TortoiseGit and similar applications. 
+
 ### Configure Git for the first time
 
 ```
