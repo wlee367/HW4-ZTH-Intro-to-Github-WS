@@ -11,7 +11,8 @@ from random import randint
 guessesNum = 0
 number = randint(0,9)
 
-print('Welcome strange pal, I am thinking of a number between 0 and 9, inclusive. You have 5 chances' )
+print('Welcome Friend, I am thinking of a number between 0 and 9, inclusive. You have 5 chances' )
+
 while guessesNum < 5:
 	print('Take a guess')
 	guess = input()
