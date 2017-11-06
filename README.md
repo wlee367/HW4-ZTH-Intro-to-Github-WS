@@ -75,9 +75,17 @@ In order to add your changes to the repository, you need to save your changes! W
 * Add all the files you need to commit using `git add filename`
 * Type `git commit -m “message”`
 
+🚨WARNING🚨
+
+Make sure you and your teammates aren't commiting changes to the same file, or else you may get merge errors! We'll discuss this in greater detail later. 
+
 ### Pushing changes 
 
 Now that your changes are saved, you need to push them to the repository! In order to do this, type `git push`. 
+
+### Pulling changes
+
+How do you get changes that other people have committed to the repository? Just use `git push`!
 
 ### LOL My git for one of my projects is on fire Jason & Kayla, and not the good kind of fire :sob: , what do we do?
 
