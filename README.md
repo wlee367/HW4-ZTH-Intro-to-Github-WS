@@ -160,6 +160,13 @@ To merge the branches into master:
 `git merge my-new-cool-branch`
 This command will take your new branch and merge it to Master. Please check this [stack overflow answer](https://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master) for the safest way to do this. Most of the time git merge your-branch-name will work, but if there are merge conflicts... lol gg
 
+## Git tips: 
+
+* Commit frequently… and with messages! 
+* Use branches 
+* Communicate with the team
+* Stack Overflow is your best friend
+
 
 
 
