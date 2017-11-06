@@ -75,7 +75,7 @@ In order to add your changes to the repository, you need to save your changes! W
 * Add all the files you need to commit using `git add filename`
 * Type `git commit -m “message”`
 
-🚨WARNING🚨
+🚨**WARNING**🚨
 
 Make sure you and your teammates aren't commiting changes to the same file, or else you may get merge errors! We'll discuss this in greater detail later. 
 
