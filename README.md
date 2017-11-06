@@ -1,6 +1,12 @@
 # HW4-ZTH-Intro-to-Github-WS
 A :fire: presentation about how to use Github, for the Zero To Hero Workshop that HW4 is hosting on November 6th
 
+### Before we begin: 
+
+* Don’t have a Mac? Download Git here: https://git-scm.com/downloads
+* Make an account on GitHub: https://github.com/
+* Sign up for the developer account to get private repositories: https://education.github.com/
+
 ### What the heck is Git?
 
 To put it simply, Git is a version control system. If you’re working without version control, all of the changes that you made are saved and you can’t go back to older version. Git allows you to save different versions of your project, giving you the opportunity to roll back your code in case of an emergency -- we’ll discuss this more in detail later.
