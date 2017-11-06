@@ -85,7 +85,7 @@ Now that your changes are saved, you need to push them to the repository! In ord
 
 ### Pulling changes
 
-How do you get changes that other people have committed to the repository? Just use `git push`!
+How do you get changes that other people have committed to the repository? Just use `git pull`!
 
 ### LOL My git for one of my projects is on fire Jason & Kayla, and not the good kind of fire :sob: , what do we do?
 
