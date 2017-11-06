@@ -51,7 +51,7 @@ We're glad you asked! Basically this tells to Git, your github username, and you
 
 ### Creating your first repository 
 
-Creating your first reposititory is as easy as 1 10 11! 
+Creating your first repository is as easy as 1 10 11! 
 
 * Create a folder on your computer (remember what path it's in!) 
 * `cd` into your directory 
@@ -59,7 +59,14 @@ Creating your first reposititory is as easy as 1 10 11!
 
 ### Allowing people to contribute to your repository
 
+* Go to your repository settings 
+* Click on collaborators 
+* Enter the usernames of your hackathon partners to add them! 
+
 ### Accessing someone else's repository 
+
+* Find the related URL of the repository on the other person's repository page. 
+* Type `git clone URL`
 
 ### LOL My git for one of my projects is on fire Jason & Kayla, and not the good kind of fire :sob: , what do we do?
 
