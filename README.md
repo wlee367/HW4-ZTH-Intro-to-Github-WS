@@ -75,6 +75,10 @@ In order to add your changes to the repository, you need to save your changes! W
 * Add all the files you need to commit using `git add filename`
 * Type `git commit -m “message”`
 
+### Pushing changes 
+
+Now that your changes are saved, you need to push them to the repository! In order to do this, type `git push`. 
+
 ### LOL My git for one of my projects is on fire Jason & Kayla, and not the good kind of fire :sob: , what do we do?
 
 Okay, that really depends on what just happened, if we're being brutally honest here. But we get it, sometimes you mess up something without knowing and your git is all messed up! We've all been there sitting at our desk at 4am wondering where our work just went. Here are a few debugging tips and pointers to help you **put out the :fire: :**
