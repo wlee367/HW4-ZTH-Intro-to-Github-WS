@@ -55,7 +55,8 @@ Creating your first repository is as easy as 1 10 11!
 
 * Create a folder on your computer (remember what path it's in!) 
 * `cd` into your directory 
-* Type `git init` to create your repository!
+* Type `git init` to create your repository
+* git remote add origin ***your url for your repo***
 
 ### Allowing people to contribute to your repository
 
